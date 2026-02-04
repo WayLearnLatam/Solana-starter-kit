@@ -1,0 +1,19 @@
+{
+  "name": "Learning Rust",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "1yib.rust-bundle",
+        "dustypomerleau.rust-syntax",
+        "rust-lang.rust-analyzer",
+        "dbaeumer.vscode-eslint",
+        "rvest.vs-code-prettier-eslint"
+      ]
+    }
+  }
+}
