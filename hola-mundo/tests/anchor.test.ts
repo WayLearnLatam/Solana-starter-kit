@@ -1,26 +1,17 @@
-import * as anchor from "@coral-xyz/anchor";
-import BN from "bn.js";
-import assert from "assert";
-import * as web3 from "@solana/web3.js";
-import type { HolaMundo } from "../target/types/hola_mundo";
+// No imports needed: web3, anchor, pg and more are globally available
 
 describe("Test", () => {
-  // Configure the client to use the local cluster
-  anchor.setProvider(anchor.AnchorProvider.env());
-
-  const program = anchor.workspace.HolaMundo as anchor.Program<HolaMundo>;
-  
   it("initialize", async () => {
     // Generate keypair for the new account
     const newAccountKp = new web3.Keypair();
 
     // Send transaction
     const data = new BN(42);
-    const txHash = await program.methods
+    const txHash = await pg.program.methods
       .initialize(data)
       .accounts({
         newAccount: newAccountKp.publicKey,
-        signer: program.provider.publicKey,
+        signer: pg.wallet.publicKey,
         systemProgram: web3.SystemProgram.programId,
       })
       .signers([newAccountKp])
@@ -28,10 +19,10 @@ describe("Test", () => {
     console.log(`Use 'solana confirm -v ${txHash}' to see the logs`);
 
     // Confirm transaction
-    await program.provider.connection.confirmTransaction(txHash);
+    await pg.connection.confirmTransaction(txHash);
 
     // Fetch the created account
-    const newAccount = await program.account.newAccount.fetch(
+    const newAccount = await pg.program.account.newAccount.fetch(
       newAccountKp.publicKey
     );
 
