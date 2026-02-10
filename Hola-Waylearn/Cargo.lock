@@ -824,13 +824,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hello-world"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
-]
-
-[[package]]
 name = "hmac"
 version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -849,6 +842,13 @@ dependencies = [
  "digest 0.9.0",
  "generic-array",
  "hmac",
+]
+
+[[package]]
+name = "hola-mundo"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
 ]
 
 [[package]]
