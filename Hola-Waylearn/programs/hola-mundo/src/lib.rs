@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 declare_id!("");
 
 #[program]
-mod hola_mundo {
+mod hello_world {
     use super::*;
 
     pub fn saludo(ctx: Context<Saludo>) -> Result<()> {

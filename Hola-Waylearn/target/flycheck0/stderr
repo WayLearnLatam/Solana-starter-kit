@@ -1,0 +1,8 @@
+error: failed to load manifest for workspace member `/home/rivas/Rust/Documentacion/Waylearn/Solana-first-steps/Hola-Waylearn/programs/hello-world`
+referenced via `programs/*` by workspace at `/home/rivas/Rust/Documentacion/Waylearn/Solana-first-steps/Hola-Waylearn/Cargo.toml`
+
+Caused by:
+  failed to read `/home/rivas/Rust/Documentacion/Waylearn/Solana-first-steps/Hola-Waylearn/programs/hello-world/Cargo.toml`
+
+Caused by:
+  No such file or directory (os error 2)
