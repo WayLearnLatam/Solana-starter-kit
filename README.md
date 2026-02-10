@@ -11,18 +11,9 @@ Asegúrate de clonar este repositorio a tu cuenta usando el botón **`Fork`**.
 ![fork](./images/fork.png)
 
 * Puedes renombrar el repositorio a lo que sea que se ajuste con tu proyecto.
-* Presiona el botón **`<> Code`** y luego haz click en la sección **`Codespaces`**
 
-![codespaces](./images/codespaces.png)
+## Conociendo el Playground
+Solana Playground es un entorno de desarrollo online que permite escribir, compilar, desplegar y probar programas de Solana directamente desde el navegador, sin necesidad de instalar herramientas locales como Rust, Solana CLI o Anchor.
 
-* Por último, presiona **`Create codespace on master`**. Esto abrirá el proyecto en una interfaz gráfica de Visual Studio Code e instalará todas las herramientas necesarias para empezar a programar (es muy importante esperar a que este proceso termine):
-
-![instalacion](./images/Instalacion.png)
-
-El proceso de instalación finaliza cuando la terminal se reinicia y queda de la siguiente manera:
-
-![terminal](./images/terminal.png)
-
-
-
+![Playground](./images/playground.png)
 
