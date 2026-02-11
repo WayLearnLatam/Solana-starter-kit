@@ -48,3 +48,39 @@ Como resultado se mostrará la siguiente información:
 ## ¿Listo para empezar?
 
 El primer paso es hacer `fork` al repositorio. Ya con el repositorio en tu cuenta lo siguiente que debes hacer es entrar a la carpeta `proyecto` y obtener el `permalink`:
+
+![permalink](./permalink.png)
+
+El cual uniremos con el siguiente enlace en nuestro navegador de preferencia:
+
+```url
+https://beta.solpg.io/
+```
+
+Lo que nos dará algo parecido a:
+
+![url](./images/url.png)
+
+Al pulsar enter seremos enviados al `Solana Playground` con nuestro proyecto abierto:
+
+![pg](./images/pg.png)
+
+Para guardarlo solo damos clic en el boton `import` y asignamos un nombre:
+
+![import](./images/import.png)
+
+## ¿Como actualizo mi repositorio?
+
+Una vez que realices cambios o termines tu proyecto, es necesario que **copies todo el código**, ya con el código en el portapapeles nos dirigimos nuevamente a la carpeta proyecto de tu repositorio de github **donde se obtuvo el `permalink`**, donde entraremos al carpeta `src` y al archivo `lib.rs`:
+
+![edit](./images/edit.png)
+
+En `lib.rs` presionaremos el ícono en forma de lapiz (esquina superior derecha de la imagen 👆)
+
+Nuevamente seleccionamos todo el código pero ahora presionamos `ctrl + v` para pegar el código del `Playground`. Ya realizados los cambios presionamos el botón `Commit changes`:
+
+![commit](./images/commit.png)
+
+Nos aparecerá un menú de confirmación donde nuevamente presionamos el botón `Commit changes`:
+
+![commit2](./images/commit2.png)
