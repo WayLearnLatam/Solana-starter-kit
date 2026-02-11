@@ -49,7 +49,7 @@ Como resultado se mostrará la siguiente información:
 
 El primer paso es hacer `fork` al repositorio. Ya con el repositorio en tu cuenta lo siguiente que debes hacer es entrar a la carpeta `proyecto` y obtener el `permalink`:
 
-![permalink](./permalink.png)
+![permalink](./images/permalink.png)
 
 El cual uniremos con el siguiente enlace en nuestro navegador de preferencia:
 
