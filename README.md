@@ -44,3 +44,7 @@ Como resultado se mostrará la siguiente información:
 > ℹ️ ¿Cuentas con una Wallet de [Phantom](https://phantom.com/) que deseas importar?, Da clic aquí para ver como hacerlo: 
 
 👉 [Como Importar una Wallet](./import-key-a-playground/README.md)
+
+## ¿Listo para empezar?
+
+El primer paso es hacer `fork` al repositorio. Ya con el repositorio en tu cuenta lo siguiente que debes hacer es entrar a la carpeta `proyecto` y obtener el `permalink`:
