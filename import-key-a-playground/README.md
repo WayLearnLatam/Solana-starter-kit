@@ -28,6 +28,9 @@ Para comenzar es necesario tener la llave privada `Private Key` de la extensión
 
 Para poder hacer la importación en el `Solana Playground` es necesario convertir la llave privada en un array de numeros base58. Para ello haremos uso del siguiente código de `Python`: 👉 [Convertir llave a base58](https://drive.google.com/file/d/1Ih-Hmsy0B1cLm5mYhPQxa7DIFT8SSXgZ/view?usp=sharing)
 
+Para abrir el codigo es necesario presionar el siguiente botón:
+![botoncolab](../images/botoncolab.png)
+
 Lo que nos abrirá un cuaderno de `Python` en `Google Colaboratory`:
 
 ![colab](../images/colab.png)

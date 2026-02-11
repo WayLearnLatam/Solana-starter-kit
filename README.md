@@ -4,7 +4,7 @@ Solana es una blockchain de capa 1, es decir, cuenta con su propia infraestructu
 
 Rust es el lenguaje principal para desarrollar programas en Solana. A través de él se implementa la lógica on-chain utilizando el modelo de cuentas y programas de la red, permitiendo construir contratos inteligentes seguros, eficientes y altamente optimizables.
 
-Puedes comenzar dándole Fork a este repositorio (abajo te explicamos como 👇), **hemos preparado un entorno de codespaces listo para que no tengas que instalar nada!!!**
+Puedes comenzar dándole Fork a este repositorio (abajo te explicamos como 👇)
 
 Asegúrate de clonar este repositorio a tu cuenta usando el botón **`Fork`**.
 
