@@ -17,9 +17,7 @@ Solana Playground es un entorno de desarrollo online que permite escribir, compi
 
 ![Playground](./images/playground.png)
 
-Para comenzar solo es necesario dar clic 👉 [Aquí](https://beta.solpg.io/https://github.com/WayLearnLatam/Solana-starter-kit/tree/4f4154a3c2ec587a7ed5b26c6d7f2eef7f5c2b9f/Hola-Waylearn)
-
-Lo que abrirá el Playground con un código precargado y simple de entender, el clásico "Hola Mundo".
+Para abrir el **Playground** solo es necesario dar clic 👉 [Aquí](https://beta.solpg.io)
 
 ## Configuración del entorno
 
@@ -41,17 +39,8 @@ Como resultado se mostrará la siguiente información:
 
 * En azul: la cantidad de tokens en la wallet
 
-> ℹ️ ¿Cuentas con una Wallet de [Phantom](https://phantom.com/) que deseas importar?, Da clic aquí para ver como hacerlo: 👉 ()[]
+> ℹ️ ¿Quieres ver el ejemplo de un "Hola Mundo" en Solana?. Da clic aquí: 👉 [Ver Ejemplo](./build-deploy/README.md)
 
-## Build & Deploy
+> ℹ️ ¿Cuentas con una Wallet de [Phantom](https://phantom.com/) que deseas importar?, Da clic aquí para ver como hacerlo: 
 
-El **build** prepara el programa para poder usarse. Básicamente, se revisa el código y se transforma en una versión que Solana puede entender. En este paso se detectan errores y se deja todo listo para el deploy. En cambio, el **deploy** es el momento en el que el programa se sube a la red de Solana.
-
-Después del deploy, el programa ya existe en la blockchain y puede ser usado por otras personas o aplicaciones.
-
-
-
-
-https://faucet.solana.com/
-
-
+👉 [Como Importar una Wallet](./import-key-a-playground/README.md)
