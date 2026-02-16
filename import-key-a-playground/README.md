@@ -2,9 +2,13 @@
 
 ![Banner](../images/phantomB.jpg)
 
-**Phantom Wallet** es una billetera digital para `Solana` (y otras blockchains) que permite guardar, enviar y recibir tokens, además de conectarse a aplicaciones descentralizadas (`dApps`). Funciona como una extensión de navegador y app móvil, y es la **wallet más usada en el ecosistema Solana**.
+**Phantom Wallet** es una billetera digital para `Solana` (y otras blockchains) que permite guardar, enviar y recibir tokens, además de conectarse a aplicaciones descentralizadas (`dApps`). Funciona como una extensión de navegador y app móvil, y es la **wallet más usada en el ecosistema Solana**. 
 
-Para comenzar es necesario tener la llave privada `Private Key` de la extensión de `Phantom Wallet`, lo que se hace mediante los siguientes pasos:
+**NOTA**: Como Phantom, también existen otras wallets como `Solflare`, `Backpack` o `Jupyter`. El prodecimiento descrito también funciona para esas y otras wallets, solo es necesario obtener su `Private Key`.
+
+---
+
+Para comenzar es necesario tener la llave privada (`Private Key`) de la extensión de `Phantom Wallet`, lo que se hace mediante los siguientes pasos:
 
 ![private key](../images/privatekey.png)
 
@@ -26,6 +30,8 @@ Para comenzar es necesario tener la llave privada `Private Key` de la extensión
 
 9. Y finalmente copiamos la llave privada.
 
+---
+
 Para poder hacer la importación en el `Solana Playground` es necesario convertir la llave privada en un array de numeros base58. Para ello haremos uso del siguiente código de `Python`: 👉 [Convertir llave a base58](https://drive.google.com/file/d/1Ih-Hmsy0B1cLm5mYhPQxa7DIFT8SSXgZ/view?usp=sharing)
 
 Para abrir el codigo es necesario presionar el siguiente botón:
@@ -40,6 +46,8 @@ Donde solo es necesario pegar la llave de Phantom en donde dice `PEGA TU LLAVE A
 ![colab1](../images/colab1.png)
 
 Al finalizar la ejecución nos generará un archivo de nombre `key_array.json`, que descargaremos presionando clic derecho y `Download`.
+
+---
 
 Para continuar es necesario volver al `Playground de solana`, donde es necesario acceder al menú de la wallet que se encuentra en la parte superior derecha:
 
