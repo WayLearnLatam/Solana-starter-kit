@@ -32,16 +32,43 @@ Para comenzar es necesario tener la llave privada (`Private Key`) de la extensi�
 
 ---
 
-Para poder hacer la importación en el `Solana Playground` es necesario convertir la llave privada en un array de numeros base58. Para ello haremos uso del siguiente código de `Python`: 👉 [Convertir llave a base58](https://drive.google.com/file/d/1Ih-Hmsy0B1cLm5mYhPQxa7DIFT8SSXgZ/view?usp=sharing)
+Para poder hacer la importación en el `Solana Playground` es necesario convertir la llave privada en un array de numeros base58. 
 
-Para abrir el codigo es necesario presionar el siguiente botón:
-![botoncolab](../images/botoncolab.png)
+> ⚠️ **Antes de continuar es necesario que tengas una sesión iniciada en Google**
 
-Lo que nos abrirá un cuaderno de `Python` en `Google Colaboratory`:
+
+
+Para correr el código se hará uso de `Google Colaboratory`: Clic 👉 [Aquí](https://colab.research.google.com/)
+
+Donde es necesario abrir un nuevo cuaderno presionando primero el `bóton rojo` y posteriormente el `azul`
+![colabi](../images/colabi.png)
+
+Lo que nos abrirá un cuaderno de `Python`, donde se debe pegar el siguiente código:
+
+> ⚠️ **Recuerda reemplazar `PEGA TU LLAVE AQUI` por la llave privada**
+
+```
+!pip install base58
+KEY = "PEGA TU LLAVE AQUI"
+
+import base58
+import json
+
+# Decodificar Base58 → bytes
+decoded_bytes = base58.b58decode(KEY)
+
+# Convertir a array (lista de enteros)
+byte_array = list(decoded_bytes)
+
+# Guardar en un archivo JSON
+with open("key_array.json", "w") as f:
+  json.dump(byte_array, f, indent=2)
+```
+
+Quedando de la siguiente manera:
 
 ![colab](../images/colab.png)
-
-Donde solo es necesario pegar la llave de Phantom en donde dice `PEGA TU LLAVE AQUI` y ejecutar las celdas presionando dos veces `SHIFT + ENTER`:
+Donde solo **es necesario pegar la llave de Phantom en donde dice `PEGA TU LLAVE AQUI`** y ejecutar la celda presionando `SHIFT + ENTER`, o pulsando el bóton `Run all`:
 
 ![colab1](../images/colab1.png)
 

@@ -45,7 +45,7 @@ Al terminal deploy aparece una ventana emergente que nos manda al `Solana Explor
 
 ## Interactuando con el código
 
-Para interactuar con el código es necesario estar en el apartado `Explorer` (recuadro de color rojo) y estar en la pestaña `Client` (recuadro azul). Donde encontraremos código en `TypeScript`:
+Para interactuar con el código es necesario estar en el apartado `Build & Deploy` (recuadro de color rojo) y estar en la pestaña `Client` (recuadro azul). Donde encontraremos código en `TypeScript`:
 
 ![client](../images/client.png)
 

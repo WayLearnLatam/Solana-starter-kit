@@ -6,8 +6,8 @@ declare_id!("");
 mod modulo {
     use super::*;
 
-    pub fn mi_primer_funcion(ctx: Context<Saludo>) -> Result<()> {
-        msg!("Mi funcion, funciona !!! :D");
+    pub fn mi_primer_instruccion(ctx: Context<Saludo>) -> Result<()> {
+        msg!("Mi instruccion, funciona !!! :D");
         Ok(())
     }
 }
